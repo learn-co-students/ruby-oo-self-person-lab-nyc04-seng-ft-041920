@@ -1,7 +1,7 @@
 class Person
   attr_accessor :bank_account
   attr_reader :name, :happiness, :hygiene
-  
+
   def initialize(name, bank_account=25, happiness=8, hygiene=8)
     @name = name
     @bank_account = bank_account
@@ -98,44 +98,3 @@ p stella.happiness
 # p stella.happiness
 # p stella.get_paid(2000)
 # p stella.bank_account
-
-
-
-
-
-
-
-
-
-  # Create a method with minimum hygiene and happy points
-  def maximum_pnts(points)
-
-    # WHAT ARE WE CHANGING IN HAPPINESS ?
-      # ANS: WE ARE INCREMENTING OR DECREMENTING ITS VALUE BASED ON OTHER METHODS BEHAVIOR
-
-    # HOW ARE WE CHANGING HAPPINESS AND HYGIENE ?
-      # SHOULD WE USE OUR # GETTERS / SETTERS ?
-
-    # HOW CAN WE ALLOW HAPPINESS TO CHANGE WITHIN THESE METHODS ?
-      # SHOULD WE USE OUR # GETTERS / SETTERS ?
-
-    # ARE USING MAXIMUM MINIMUM METHODS INSIDE OTHER METHODS ?
-  
-
-    # if @happiness is less than 10
-    #   allow happiness to change
-    # else if happiness is greater than or equal to 10
-    #   do not allow happiness to change
-
-  end
-
-  def minimum_pnts(mood, points)
-    puts "MINIMUM METHOD"
-    p mood
-    puts ""
-    p points
-    # if happiness is greater than 0
-      #   allow happiness to change
-      # else if happiness is less than or equal to 0
-      #   do not allow happiness to change
-  end
